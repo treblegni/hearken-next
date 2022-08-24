@@ -1,0 +1,47 @@
+.fancy-text {
+	font-family: 'Annie Use Your Telescope', cursive;
+	color:black;
+	font-weight: 400;
+}
+
+.stories-greeting{
+	padding-top: 13%;
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+}
+
+.stories-message-background{
+	width: 500px;
+	height: 500px;
+	background-image: url("./res/left-cloud.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	color:black;
+	font-family: 'Annie Use Your Telescope', cursive;
+
+}
+
+.stories-message{
+	padding-top: 19%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: 170px;
+}
+
+.stories-padding{
+	margin: 3px;
+}
+
+.stories-button{
+	padding: 10px;
+	padding-top: 5px;
+	color: white;
+}
+
+.stories-content{
+	padding-top: 22%;
+	font-size: 20px;
+}

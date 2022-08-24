@@ -1,7 +1,14 @@
+import { Provider } from 'react-redux'
+import HearkenStore from '../store.js'
+
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+const MyApp = ({ Component, pageProps }) => {
+  return (
+		<Provider store={HearkenStore}>
+			<Component {...pageProps} />
+		</Provider>
+	)
 }
 
 export default MyApp

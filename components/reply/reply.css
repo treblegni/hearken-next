@@ -1,0 +1,36 @@
+.reply-greeting{
+	padding-top: 13%;
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+}
+
+.reply-message-background{
+	width: 500px;
+	height: 500px;
+	background-image: url("./res/left-cloud.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	color:black;
+	font-family: 'Annie Use Your Telescope', cursive;
+
+}
+
+.reply-message{
+	padding-top: 19%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: 170px;
+}
+
+.reply-padding{
+	margin: 3px;
+}
+
+.reply-button{
+  	background-color: red;
+	padding: 25px;
+	color: white;
+}

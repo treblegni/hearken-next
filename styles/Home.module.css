@@ -2,6 +2,13 @@
   padding: 0 2rem;
 }
 
+.exitButton {
+  /* background-color: black; */
+  width: 100px;
+  height: 30px;
+  margin: 0 10px;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
