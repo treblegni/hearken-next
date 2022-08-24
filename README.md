@@ -7,6 +7,8 @@ Hearken lets you get things off your chest. We often have something on our mind 
 - NextJS
 - Socket.IO
 
+Note: not ready for use
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
