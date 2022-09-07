@@ -2,37 +2,21 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const 
 	initialState = {
-		theme: '',
-		greeting: ''
+		theme: ''
 	}
 
-export const homeSlice = createSlice({
+const homeSlice = createSlice({
 	name: 'home',
 	initialState,
 	reducers: {
-		theme(state,action) {
-			switch(action.type) {
-				case 'UPDATE_THEME':
-					return state.theme = action.theme
-				default:
-					return state
-			}
-		},
-		greeting(state,action) {
-			switch(action.type) {
-				case 'UPDATE':
-					return action.greeting
-				case 'CLEAR':
-					return state.greeting = ''
-				case 'LOG':
-					return console.log(greeting)
-				default: 
-					return state
+		updateTheme(state,action) {
+			if (action.payload) {
+				state.theme = action.payload
 			}
 		}
 	}
 })
 
 // exporting actions and root reducer
-export const { theme,greeting } = homeSlice.actions
+export const { updateTheme } = homeSlice.actions
 export default homeSlice.reducer

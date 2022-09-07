@@ -1,0 +1,10 @@
+.story {
+	position: relative;
+	text-align: center;
+}
+
+.errorMessage {
+	position: absolute;
+	top: 2rem;
+	left: 0;
+}
