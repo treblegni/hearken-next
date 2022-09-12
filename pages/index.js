@@ -6,7 +6,7 @@ import Story from '../components/story'
 
 import styles from '../styles/Home.module.css'
 
-export const Home = () => {
+const Home = () => {
 	const
 		homeState = useSelector(state => state.home),
 		dispatch = useDispatch()
