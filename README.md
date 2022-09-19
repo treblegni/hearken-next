@@ -2,6 +2,8 @@
 
 Hearken lets you get things off your chest. We often have something on our mind that may be to personal for even those close to us. Hearken is a means to speak your mind annonymously, without judgment, by giving a median to communicate for you and others that use the service.
 
+Dev Marker
+
 ## Tech
 - ReactJS
 - NextJS
